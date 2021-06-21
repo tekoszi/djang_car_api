@@ -25,7 +25,7 @@ SECRET_KEY = 'fwx@y29l8_!354zx^$km%=9^m!arbv1n)h%eeq*qm0c1&(1t&6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://tekoszi-carapi.herokuapp.com']
+ALLOWED_HOSTS = ['https://tekoszi-carapi.herokuapp.com','http://127.0.0.1:8000']
 
 
 # Application definition
