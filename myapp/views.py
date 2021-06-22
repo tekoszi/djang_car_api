@@ -100,4 +100,4 @@ def popular_car(request):
         if topCars:
             return HttpResponse({json_stuff}, content_type='text/json')
         else:
-            return HttpResponse({'There is no car with that id'}, content_type='text/json')
+            return HttpResponse({'There are no cars in the DB'}, content_type='text/json')
