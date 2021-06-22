@@ -1,7 +1,8 @@
 # This is a CAR REST API
 This api enables you CRUD cars<br>
-I have build a postman collection which enables you to verify all the queries, it is available here: https://www.getpostman.com/collections/8cea83931a1e4cf26a02
-
+I have build a postman collection which enables you to verify all the queries, it is available here: https://www.getpostman.com/collections/8cea83931a1e4cf26a02 <br>
+Api is available at https://tekoszi-carapi.herokuapp.com <br>
+Additionally there is similar one builded by me using flask: https://geolocalization-api.herokuapp.com/
 ### Avaiable Endpoints:<br>
 # /car<br>
 Enables to add new car as long as it is correct based on https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMake/{make}?format=json
